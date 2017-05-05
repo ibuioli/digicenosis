@@ -1,0 +1,208 @@
+/*Documento, Limpiadores*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {margin:0;padding:0;}table {border-collapse:collapse;border-spacing:0;}fieldset, img {border:0;}address, caption, cite, code, strong, dfn, em, th, var {font-style:normal;font-weight:normal;}ol, ul {list-style:none;}caption, th {text-align:left;}h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight:normal;}q:before, q:after {content:'';}abbr, acronym {border:0;}input:focus{outline:0px;}html {overflow-x:hidden;overflow-y:hidden;}
+/*ContenidoHOME*/
+@font-face {
+font-family: 'Co2Regular';
+src: url('font/co2-webfont.eot');
+src: url('font/co2-webfont.eot?#iefix') format('embedded-opentype'),url('font/co2-webfont.woff') format('woff'),url('font/co2-webfont.ttf') format('truetype'),url('font/co2-webfont.svg#Co2Regular') format('svg');
+font-weight: normal;font-style: normal;}
+body{
+font-family: 'Co2Regular', tahoma, geneva, candara, sans-serif;
+color:#101010;
+background:#dfbf86 url('img/back.jpg') no-repeat top center fixed;
+background-size:cover;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;}
+a{text-decoration:none;color:#101010;}
+.absoluta{position:absolute;}
+.fijo{position:fixed;}
+.no-mostrar{display:none;}
+#contenedor{width:730px;height:540px;
+top:50%;left:50%;
+margin:-290px 0 0 -345px;
+text-shadow:0 0 3px #444;-webkit-text-shadow:0 0 3px #444;-moz-text-shadow:0 0 3px #444;}
+#header{margin:0 0 0 390px;
+width:790px;
+z-index:99;
+color:#101010;}
+h1{font-size:70px;
+width:790px;
+opacity:0.9;}
+#header p{font-size:16px;
+margin:-10px 0 0 100px;
+border-top:#101010 solid 2px;
+width:230px;
+padding-top:5px;
+opacity:0.9;}
+#descripcion{width:250px;
+height:420px;
+margin:120px 0 0 490px;
+color:#202020;}
+.marco{margin-top:75px;background:url('img/marco.png');width:500px;height:460px;}
+.f_01{margin:70px 0 0 100px;}
+.f_02{margin:100px 0 0 150px;}
+.f_03{margin:90px 0 0 140px;}
+.f_04{margin:90px 0 0 120px;}
+.f_05{margin:70px 0 0 90px;}
+#no-ie{width:611px;height:25;color:#ccc;background:#121212;border:#666 2px solid;left:50%;margin-left:-305px;font-size:16px;padding:5px;opacity:.7;}
+/*ContenidoSUB*/
+#header_2{margin:0;
+width:790px;
+z-index:99;
+color:#101010;
+left:0;}
+#header_2 a:hover{
+text-shadow:0 0 4px #000;-moz-transition-property: text-shadow;-moz-transition-duration: 2s;-webkit-transition-property: text-shadow;-webkit-transition-duration: 2s;-o-transition-property: text-shadow;-o-transition-duration: 2s;
+}
+h2{font-size:49px;
+width:790px;
+opacity:0.9;}
+.titulo_anotaciones{font-size:28px;margin:100px 0 0 350px;}
+.titulo_registro{font-size:24px;margin:190px 0 0 590px;}
+#header_2 p{font-size:16px;
+margin:5px 0 0 0;
+border-top:#101010 solid 2px;
+width:230px;
+padding-top:5px;
+opacity:0.9;}
+.conteto_2{width:470px;height:300px;margin:150px 0 0 20px;}
+.conteto_2 h4{width:470px;
+font-size:22px;
+border-bottom:solid #101010 3px;}
+.conteto_2 p{width:470px;
+font-size:16px;
+margin-top:10px;
+opacity:0.8;}
+.imgi{opacity:0.45;top:90px;left:0;}
+.cinta1{opacity:0.7;margin:60px 0 0 480px;}
+.cinta2{opacity:0.6;margin:480px 0 0 -10px;}
+.separador{margin:190px 0 0 550px;}
+#especies_lista{font-size:18px;margin:240px 0 0 590px;}
+#especies_lista a{opacity:0.8;}#especies_lista a:hover{opacity:0.99;}
+.con_minis{margin:-15px 0 0 510px;opacity:0.8;}
+.minis{margin:-5px 0 0 530px;}
+/*FloraFauna*/
+.lote_caja{border-top:#444 solid 2px;width:135px;margin-top:10px;padding-top:10px;}
+/*Ecosistemas*/
+.marco2{z-index:2;margin:-25px 0 0 12px;}
+.a_cute{margin:535px 0 0 300px;}.a_cute a:hover{text-decoration:underline;}
+#limpio{width:700px;
+height:25px;
+background:#d6b166;
+opacity:0.5;
+border:#121212 2px solid;
+top:-30px;left:50%;
+margin-left:-322px;
+font-size:20px;}
+#limpio p{width:300px;margin:2px auto;}
+#digice{width:130px;height:119px;
+left:-90px;
+margin-top:80px;
+font-size:20px;text-align:right;
+background:url('img/pestana.png') no-repeat;
+text-shadow:0 0 3px #222;-webkit-text-shadow:0 0 3px #222;-moz-text-shadow:0 0 3px #222;opacity: 0.8;-moz-opacity: 0.8;filter:alpha(opacity=8);}
+#digice p{margin:30px 16px 0 0;}
+h3{margin:-12px 0 0 20px;font-size:35px;z-index:3;opacity:0.9;}
+.eco_a{margin-top:2px;right:0;font-size:18px;opacity:0.9;}
+#cargando{margin:220px 0 0 320px;
+background-image:url('sprites/cargando.png');
+width:80px;height:32px; 
+background-position: 0px 0px;}
+/*Galeria*/
+#g_cont{width:700px;
+height:560px;
+top:50%;left:50%;
+margin:-270px 0 0 -345px;
+overflow:hidden;
+text-shadow:0 0 3px #444;-webkit-text-shadow:0 0 3px #444;-moz-text-shadow:0 0 3px #444;}
+.ti_gal{width:650px;border-bottom:2px solid #101010;}
+.gali{font-size:18px;right:0;bottom:0;}
+#galon{margin-top:30px;width:690px;height:410px;overflow:hidden;}
+.marco_gal{width:140px;
+height:103px;
+box-shadow: 0px 0px 6px #202020;
+background:url('galeria/img/mgal.jpg');
+float:left;
+margin:11px;
+padding:5px;}
+.marco_gal:hover{box-shadow:0 0 12px #000;-moz-transition-property:box-shadow;-moz-transition-duration:1s;-webkit-transition-property:box-shadow;-webkit-transition-duration:1s;-o-transition-property:box-shadow;-o-transition-duration:1s;}
+.marco_gal img{width:140px;}
+.blackp{width:100%;height:100%;background:#000;opacity:0.7;-moz-opacity:0.7;filter:alpha(opacity=7);z-index:999999;}
+.t_img{z-index:99999999999999999;
+top:50%;left:50%;
+margin:-262px 0 0 -350px;
+width:700px;height:525px;}
+#conti{margin:0 0 0 20px;border-top:2px solid #101010;width:650px;}#thing{margin:20px 0 20px 0;float:left;}
+.saber{margin:27px 0 0 130px;}.posicionada{margin:20px 0 0 13px;}
+#fotosWrapper{margin:430px 0 0 130px;}
+/*NavegadorVertical*/
+#nav{width:300px;
+height:380px;
+right:-100px;
+z-index:999;
+margin-top:80px;}
+#nav li{width:130px;
+height:119px;
+right:0;
+text-shadow:0 0 3px #222;-webkit-text-shadow:0 0 3px #222;-moz-text-shadow:0 0 3px #222;}
+#nav a, #nav_izq a{display:block;
+width:130px;
+height:119px;
+background:url('img/pestana.png');
+opacity:0.8;-moz-opacity: 0.8;filter:alpha(opacity=8);}
+#nav span{display:block;
+width:110px;
+font-size:18px;
+padding:40px 0 0 20px;}
+#p01{z-index:9990;}
+#p02{margin-top:80px;z-index:9991;}
+#p03{margin-top:150px;z-index:9992;}
+#nav_izq{margin:0 0 0 0;
+width:300px;
+height:160px;
+top:55%;
+right:-100px;
+z-index:999;
+margin-top:80px;}
+#nav_izq li{width:130px;
+height:119px;
+right:0px;
+text-shadow:0 0 3px #222;-webkit-text-shadow:0 0 3px #222;-moz-text-shadow:0 0 3px #222;}
+.s_bloc{display:block;
+width:110px;
+font-size:18px;
+padding:40px 0 0 20px;}
+#browser{margin:100px 0 0 0;left:-50px;}
+/*Piedepagina*/
+#pie{height:29px;
+width:100%;
+bottom:0;
+background:url('img/pie.png') repeat-x;
+opacity:0.8;}
+.sombra_2{text-shadow:0 0 2px #000;-webkit-text-shadow:0 0 2px #000;-moz-text-shadow:0 0 2px #000;}
+#pie p{color:#000;
+font-size:14px;
+top:9px;right:0;
+width:90px;}
+.izquierda{color:#000;
+font-size:14px;
+top:9px;
+left:10px;
+width:290px;}
+/*Sprites*/
+#pexen{width:163px;
+height:66px; 
+background-image:url('sprites/pexen.png'); 
+background-position: 0px 0px;
+left: -200px;
+z-index:999999999;}
+#belga{width:163px;
+height:66px; 
+background-image:url('sprites/belga.png'); 
+background-position: 0px 0px;
+right:-200px;
+z-index:999999999;}
+#oxel{width:61px;
+height:184px; 
+background-image:url('sprites/oxel.png'); 
+background-position: 0px 0px;
+bottom:-200px;
+z-index:999999999;}
